@@ -1,0 +1,5 @@
+How can I repeat a character in Bash?, You can use: printf '=
+%.0s' {1..100}. How this works: Bash expands {1..100} so the command becomes: printf 
+'=%.0s' 1 2 3 4 100. I've set printf's format to  How to repeat a character in a field if it's 
+a single character? I have a csv dataset like this : C,rs18768 G,rs13785 GA,rs1065 G,rs18
+01279 T,rs9274407 A,rs730012 I'm thinking of use like awk, sed to covert the dataset to this format:
